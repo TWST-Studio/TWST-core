@@ -1,0 +1,7 @@
+name: Twst
+version: '${project.version}'
+main: studio.twst.Core
+api-version: 1.19
+authors: [ ChrisRak ]
+description: twst core plugin
+website: https://www.twst.studio
