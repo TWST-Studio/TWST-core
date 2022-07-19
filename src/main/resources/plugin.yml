@@ -1,6 +1,6 @@
 name: Twst-core
 version: '${project.version}'
-main: io.github.TWST-Studio
+main: studio.twst
 api-version: 1.19
 authors: [ TWST-Studio ]
 description: twst core plugin
