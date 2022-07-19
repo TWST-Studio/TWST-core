@@ -1,0 +1,93 @@
+Index: src/main/resources/plugin.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>name: Twst\r\nversion: '${project.version}'\r\nmain: io.github.TWST-Studio\r\napi-version: 1.19\r\nauthors: [ TWST-Studio ]\r\ndescription: twst core plugin\r\nwebsite: https://twst-studio.github.io\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/plugin.yml b/src/main/resources/plugin.yml
+--- a/src/main/resources/plugin.yml	(revision c7f39cbb956b3e01364dba02d292f0436233e8d7)
++++ b/src/main/resources/plugin.yml	(date 1658191967674)
+@@ -1,4 +1,4 @@
+-name: Twst
++name: Twst-core
+ version: '${project.version}'
+ main: io.github.TWST-Studio
+ api-version: 1.19
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>twst</groupId>\r\n    <artifactId>twst</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n    <packaging>jar</packaging>\r\n\r\n    <name>Twst</name>\r\n\r\n    <description>twst core plugin</description>\r\n    <properties>\r\n        <java.version>1.8</java.version>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n    <url>https://twst-studio.github.io</url>\r\n\r\n    <build>\r\n        <plugins>\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-compiler-plugin</artifactId>\r\n                <version>3.8.1</version>\r\n                <configuration>\r\n                    <source>${java.version}</source>\r\n                    <target>${java.version}</target>\r\n                </configuration>\r\n            </plugin>\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-shade-plugin</artifactId>\r\n                <version>3.2.4</version>\r\n                <executions>\r\n                    <execution>\r\n                        <phase>package</phase>\r\n                        <goals>\r\n                            <goal>shade</goal>\r\n                        </goals>\r\n                        <configuration>\r\n                            <createDependencyReducedPom>false</createDependencyReducedPom>\r\n                        </configuration>\r\n                    </execution>\r\n                </executions>\r\n            </plugin>\r\n        </plugins>\r\n        <resources>\r\n            <resource>\r\n                <directory>src/main/resources</directory>\r\n                <filtering>true</filtering>\r\n            </resource>\r\n        </resources>\r\n    </build>\r\n\r\n    <repositories>\r\n        <repository>\r\n            <id>papermc-repo</id>\r\n            <url>https://repo.papermc.io/repository/maven-public/</url>\r\n        </repository>\r\n        <repository>\r\n            <id>sonatype</id>\r\n            <url>https://oss.sonatype.org/content/groups/public/</url>\r\n        </repository>\r\n    </repositories>\r\n\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>io.papermc.paper</groupId>\r\n            <artifactId>paper-api</artifactId>\r\n            <version>1.19-R0.1-SNAPSHOT</version>\r\n            <scope>provided</scope>\r\n        </dependency>\r\n    </dependencies>\r\n</project>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision c7f39cbb956b3e01364dba02d292f0436233e8d7)
++++ b/pom.xml	(date 1658191602537)
+@@ -4,12 +4,12 @@
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+ 
+-    <groupId>twst</groupId>
+-    <artifactId>twst</artifactId>
++    <groupId>TWST-Studio</groupId>
++    <artifactId>TWST-Studio</artifactId>
+     <version>1.0-SNAPSHOT</version>
+     <packaging>jar</packaging>
+ 
+-    <name>Twst</name>
++    <name>TWST-core</name>
+ 
+     <description>twst core plugin</description>
+     <properties>
+Index: src/main/java/io/github/TWST-Studio/Core.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/io/github/TWST-Studio/Core.java b/src/main/java/io/github/TWST-Studio/Core.java
+deleted file mode 100644
+--- a/src/main/java/io/github/TWST-Studio/Core.java	(revision c7f39cbb956b3e01364dba02d292f0436233e8d7)
++++ /dev/null	(revision c7f39cbb956b3e01364dba02d292f0436233e8d7)
+@@ -1,17 +0,0 @@
+-package studio.twst;
+-
+-import org.bukkit.plugin.java.JavaPlugin;
+-
+-public final class Core extends JavaPlugin {
+-
+-    @Override
+-    public void onEnable() {
+-        // Plugin startup logic
+-
+-    }
+-
+-    @Override
+-    public void onDisable() {
+-        // Plugin shutdown logic
+-    }
+-}
+Index: src/main/java/io/github/twst/Core.java
+===================================================================
+diff --git a/src/main/java/io/github/twst/Core.java b/src/main/java/io/github/twst/Core.java
+deleted file mode 100644
+--- a/src/main/java/io/github/twst/Core.java	(revision c7f39cbb956b3e01364dba02d292f0436233e8d7)
++++ /dev/null	(revision c7f39cbb956b3e01364dba02d292f0436233e8d7)
+@@ -1,17 +0,0 @@
+-package io.github.twst;
+-
+-import org.bukkit.plugin.java.JavaPlugin;
+-
+-public final class Core extends JavaPlugin {
+-
+-    @Override
+-    public void onEnable() {
+-        // Plugin startup logic
+-
+-    }
+-
+-    @Override
+-    public void onDisable() {
+-        // Plugin shutdown logic
+-    }
+-}

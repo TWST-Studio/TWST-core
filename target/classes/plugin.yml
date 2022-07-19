@@ -1,0 +1,7 @@
+name: Twst-core
+version: '1.0-SNAPSHOT'
+main: studio.twst
+api-version: 1.19
+authors: [ TWST-Studio ]
+description: twst core plugin
+website: https://twst-studio.github.io
