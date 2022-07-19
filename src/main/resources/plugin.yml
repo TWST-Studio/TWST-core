@@ -1,4 +1,4 @@
-name: Twst
+name: Twst-core
 version: '${project.version}'
 main: io.github.TWST-Studio
 api-version: 1.19
