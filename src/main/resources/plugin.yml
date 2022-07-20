@@ -7,4 +7,4 @@ description: twst core plugin
 website: https://twst-studio.github.io
 commands:
   twst:
-    description: Just a command
+    description: twst core plugin main command 
