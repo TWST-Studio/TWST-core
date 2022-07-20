@@ -6,14 +6,14 @@ public final class Core extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        System.out.println("Plugin now on");
+        System.out.println("Plugin now enable");
         // Plugin startup logic
 
     }
 
     @Override
     public void onDisable() {
-        System.out.println("Plugin now off");
+        System.out.println("Plugin now disable");
         // Plugin shutdown logic
     }
 }
