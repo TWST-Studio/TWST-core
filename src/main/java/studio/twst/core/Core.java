@@ -9,7 +9,6 @@ public final class Core extends JavaPlugin {
     public void onEnable() {
         Bukkit.getLogger().info("TWST core plugin now enable");
         // Plugin startup logic
-
     }
 
     @Override
