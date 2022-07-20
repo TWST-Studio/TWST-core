@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="add commands.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/loader/PluginLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/manager/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_7_19__08_53____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2022_7_19__08_53____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/commands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,9 @@
     <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="2C6saxbOiROn38RgT2etLcYN5XO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,17 +46,6 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="twst" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
