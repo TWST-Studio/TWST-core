@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="update">
+    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="add commands.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" afterDir="false" />
     </list>
@@ -12,6 +12,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658300700000</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add commands dir">
+      <created>1658301762956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658301762956</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add commands.java">
+      <created>1658301872035</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658301872035</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -147,6 +168,8 @@
     <MESSAGE value="重新構建" />
     <MESSAGE value="修復" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add commands dir" />
+    <MESSAGE value="add commands.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add commands.java" />
   </component>
 </project>
