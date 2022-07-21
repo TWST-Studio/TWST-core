@@ -2,36 +2,25 @@ package studio.twst.core;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import studio.twst.core.loader.PluginLoader;
 
-public final class Core extends JavaPlugin {
+public class Core extends JavaPlugin {
+
+    public static Core core;
 
     @Override
     public void onEnable() {
+        core = this;
+
+        PluginLoader pluginLoader = new PluginLoader();
+        pluginLoader.register();
+        pluginLoader.loadConfig();
+
         Bukkit.getLogger().info("TWST core plugin now enable");
-        try {
-
-            Path path = Paths.get("/TWST-core");
-
-            //java.nio.file.Files;
-            Files.createDirectories(path);
-
-            Bukkit.getLogger().info("Directory is created!");
-
-        } catch (IOException e) {
-
-            Bukkit.getLogger().info("Failed to create directory!" + e.getMessage());
-
-        }
-        // Plugin startup logic
     }
 
     @Override
     public void onDisable() {
         Bukkit.getLogger().info("TWST core plugin now disable");
-        // Plugin shutdown logic
     }
 }

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="add commands.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" afterDir="false" />
+    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="added command to reload config">
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/data/PlayerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/loader/PluginLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/loader/PluginLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,9 @@
     <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="2C6saxbOiROn38RgT2etLcYN5XO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,17 +42,6 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="twst" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -138,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658301872035</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added command to reload config">
+      <created>1658309241553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658309241554</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -170,6 +170,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="add commands dir" />
     <MESSAGE value="add commands.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add commands.java" />
+    <MESSAGE value="added command to reload config" />
+    <option name="LAST_COMMIT_MESSAGE" value="added command to reload config" />
   </component>
 </project>
