@@ -15,6 +15,7 @@ public class TabComplete implements TabCompleter {
         switch (label) {
             case "twst" -> {
                 if (args.length == 1) return List.of("reload");
+                if (args.length == 1) return List.of("test");
             }
         }
         return null;
