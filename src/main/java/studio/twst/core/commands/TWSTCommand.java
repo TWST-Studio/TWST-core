@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.jetbrains.annotations.NotNull;
 import studio.twst.core.loader.PluginLoader;
 
-public class Commands implements CommandExecutor {
+public class TWSTCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
@@ -15,6 +15,10 @@ public class Commands implements CommandExecutor {
                 if ("reload".equalsIgnoreCase(args[0]) && sender.isOp()) {
                     PluginLoader pluginLoader = new PluginLoader();
                     pluginLoader.loadConfig();
+                }
+                if ("help".equalsIgnoreCase(args[0])) {
+                    sender.sendMessage("這是TWST基礎插件");
+
                 }
             }
         }

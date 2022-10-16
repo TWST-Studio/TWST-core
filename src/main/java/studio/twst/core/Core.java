@@ -1,6 +1,7 @@
 package studio.twst.core;
 
 import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import studio.twst.core.loader.PluginLoader;
 
@@ -15,7 +16,10 @@ public class Core extends JavaPlugin {
         PluginLoader pluginLoader = new PluginLoader();
         pluginLoader.register();
         pluginLoader.loadConfig();
-
+        FileConfiguration config = this.getConfig();
+        config.addDefault("welcome_message", "歡迎來到TWST!");
+        config.options().copyDefaults(true);
+        saveConfig();
         Bukkit.getLogger().info("TWST core plugin now enable");
     }
 

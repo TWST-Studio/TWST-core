@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="added command to reload config">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_7_19__08_53____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_7_19_上午_08_53_取消提交了变更_[变更]/shelved.patch" beforeDir="false" />
+    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="1.19.2 support">
+      <change afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/JoinMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/TabComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/TabComplete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/TWSTCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658309241554</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1.19.2 support">
+      <created>1665882467858</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665882467858</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -183,6 +188,7 @@
     <MESSAGE value="add commands dir" />
     <MESSAGE value="add commands.java" />
     <MESSAGE value="added command to reload config" />
-    <option name="LAST_COMMIT_MESSAGE" value="added command to reload config" />
+    <MESSAGE value="1.19.2 support" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.19.2 support" />
   </component>
 </project>
