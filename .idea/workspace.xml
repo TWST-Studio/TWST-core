@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="join message+config file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/JoinMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/JoinMessage.java" afterDir="false" />
-    </list>
+    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="try to fix error" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665883571416</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="try to fix error">
+      <created>1665885063070</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665885063070</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -209,6 +212,7 @@
     <MESSAGE value="added command to reload config" />
     <MESSAGE value="1.19.2 support" />
     <MESSAGE value="join message+config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="join message+config file" />
+    <MESSAGE value="try to fix error" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to fix error" />
   </component>
 </project>
