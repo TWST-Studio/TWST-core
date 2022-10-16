@@ -16,6 +16,7 @@ public class Core extends JavaPlugin {
         PluginLoader pluginLoader = new PluginLoader();
         pluginLoader.register();
         pluginLoader.loadConfig();
+        getServer().getPluginManager().registerEvents(new JoinMessage(), this);
         FileConfiguration config = this.getConfig();
         config.addDefault("welcome_message", "歡迎來到TWST!");
         config.options().copyDefaults(true);

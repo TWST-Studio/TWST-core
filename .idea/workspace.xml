@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="1.19.2 support">
-      <change afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/JoinMessage.java" afterDir="false" />
+    <list default="true" id="98f6315f-e2fe-40de-8555-7c3502407c38" name="变更" comment="join message+config file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/commands/TWSTCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studio/twst/core/JoinMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studio/twst/core/JoinMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665882467858</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="join message+config file">
+      <created>1665883571416</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665883571416</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -175,7 +182,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev/1.19.2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -189,6 +208,7 @@
     <MESSAGE value="add commands.java" />
     <MESSAGE value="added command to reload config" />
     <MESSAGE value="1.19.2 support" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.19.2 support" />
+    <MESSAGE value="join message+config file" />
+    <option name="LAST_COMMIT_MESSAGE" value="join message+config file" />
   </component>
 </project>
